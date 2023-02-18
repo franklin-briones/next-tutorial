@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function PostList({ posts }) {
     return (
         <>
-        <h1>List of all Posts</h1>
+        <h1>List of all Posts shown here</h1>
         {
             posts.map((post) => {
                 return (
