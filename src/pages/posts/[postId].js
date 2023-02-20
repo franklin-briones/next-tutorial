@@ -19,7 +19,7 @@ export async function getStaticProps(context) {
         }
     }
 
-    console.log(`Generate page for /posts/${params.postId}`)
+    // console.log(`Generate page for /posts/${params.postId}`)
     return {
         props: {
             post: data
