@@ -31,8 +31,6 @@ export default function EventList({ eventList }) {
 
 }
 
-
-
 export async function getServerSideProps(context) {
     const { query } = context
     const { category  } = query
